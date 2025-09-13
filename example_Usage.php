@@ -1,10 +1,9 @@
 <?php
 require 'PHPBanglaDate.php';
 
-// Initialize PHPBanglaDate
-$banglaDate = new PHPBanglaDate(time());
+use PHPBanglaDate\PHPBanglaDate;
 
-// Get Bangla date
+$banglaDate = new PHPBanglaDate(time());
 list($date, $month, $year) = $banglaDate->get_date();
 
 echo "Bangla Date: $date $month $year";
