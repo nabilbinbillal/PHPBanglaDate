@@ -25,7 +25,7 @@
     "require": {
         "php": ">=7.0"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "suggest": {
         "ext-mbstring": "Required for proper multi-byte string handling in Bangla"
     }
