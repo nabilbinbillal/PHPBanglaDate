@@ -11,6 +11,8 @@
  * Free to use and modify. Keep credit if redistributed.
  */
 
+namespace PHPBanglaDate;
+
 class PHPBanglaDate {
 
     private $timestamp;
