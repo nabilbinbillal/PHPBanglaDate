@@ -1,18 +1,32 @@
 {
     "name": "nabilbinbillal/phpbangladate",
-    "description": "A simple and accurate PHP library to convert English timestamps to Bangla date.",
+    "description": "PHPBanglaDate is a lightweight and accurate PHP library to convert English timestamps to Bangla date, month, and year.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Nabil Bin Billal",
-            "email": "nabilbinbillal@gmail.com"
+            "email": "nabilbinbillal@gmail.com",
+            "homepage": "https://github.com/nabilbinbillal",
+            "role": "Developer"
         }
     ],
+    "keywords": ["php", "bangla", "bengali", "date", "calendar", "datetime", "bangladate", "banglacalendar"],
+    "homepage": "https://github.com/nabilbinbillal/PHPBanglaDate",
+    "support": {
+        "issues": "https://github.com/nabilbinbillal/PHPBanglaDate/issues",
+        "source": "https://github.com/nabilbinbillal/PHPBanglaDate"
+    },
     "autoload": {
         "psr-4": {
             "PHPBanglaDate\\": ""
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "stable",
+    "suggest": {
+        "ext-mbstring": "Required for proper multi-byte string handling in Bangla"
+    }
 }
